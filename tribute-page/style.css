@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#img-div img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+#tribute-info {
+    width: 40%;
+    margin-top: 5%;
+}
+#tribute-info h2 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+#tribute-info ul li {
+    margin-bottom: 5%;
+}
+
+footer p, footer a {
+    font-size: 18px;
+    font-weight: bold;
+}
