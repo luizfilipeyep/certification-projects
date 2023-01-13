@@ -4,12 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Original Trombones</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <header id="header"></header>
+        <header id="header">
+            <img 
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" 
+                alt="original trombones logo" 
+                id="header-img">
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <h1>Handcrafted, home-made masterpieces</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+                <input 
+                    type="submit" 
+                    value="Get Started"
+                    id="submit"
+                >
+            </form>
+        </section>
+
+        <section id="features"></section>
+
+        <section id="how-it-works">
+            <iframe
+                id="video"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                frameborder="0"
+                allowfullscreen></iframe>
+        </section>
+
+        <sectiion id="pricing"></sectiion>
     </div>
 </body>
 </html>
